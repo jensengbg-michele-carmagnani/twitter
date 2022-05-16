@@ -7,9 +7,9 @@ interface Props {
 
 const SidebarRow: React.FC<Props> = ({ Icon, title }) => {
     return (
-        <div className="flex max-w-fit items-center space-x-2 px-4 py-3 rounded-full hover:bg-gray-100 transition-all duration-200 group cursor-pointer">
+        <div className="flex items-center justify-start max-w-fit space-x-2 px-4 py-3 rounded-full hover:bg-gray-100 transition-all duration-200 group cursor-pointer">
             <Icon className="h-5 w-6" />
-            <p className="group-hover:text-twitter">{title}</p>
+            <p className="hidden group-hover:text-twitter  md:inline-flex lg:text-xl">{title}</p>
         </div>
     )
 }

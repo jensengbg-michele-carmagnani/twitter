@@ -15,9 +15,9 @@ import SidebarRow from './SidebarRow'
 function
     Sidebar() {
     return (
-        <div className="flex flex-col col-span-2">
+        <div className="flex flex-col  col-span-2  px-4 md:intems-start">
 
-            <img className='h-10 w-10' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/512px-Twitter-logo.svg.png?20211104142029'} alt="" />
+            <img className=' m-3 h-10 w-10' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/512px-Twitter-logo.svg.png?20211104142029'} alt="" />
             <SidebarRow Icon={BellIcon} title='Notification' />
             <SidebarRow Icon={HashtagIcon} title='Hashtag' />
             <SidebarRow Icon={HomeIcon} title='Home' />
